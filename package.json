@@ -21,5 +21,14 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "axios": "^0.18.0"
+  },
+  "proxy":{
+    "/app":{
+      "target":"http://mysite.zengjielin.top",
+      "changeOrigin":true
+    }
+  }
 }

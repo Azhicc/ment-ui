@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
+// import { login } from './service/api'
 import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  componentDidMount (){
+    this.test()
+  }
+  test = ()  => {
+    console.log(11)
+  }
   render() {
     return (
       <div className="App">
